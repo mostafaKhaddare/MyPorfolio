@@ -4,6 +4,7 @@ import ContactSection from "@/sections/contact-section";
 import EducationSection from "@/sections/education-section";
 import HeroSection from "@/sections/hero-section";
 import ProjectsSection from "@/sections/projects-section";
+import SkillsSection from "@/sections/skills-section";
 
 export default function Page() {
     return (
@@ -12,6 +13,7 @@ export default function Page() {
             <AboutSection />
             <ProjectsSection />
             <EducationSection />
+            <SkillsSection />
             <ContactSection />
             <Footer />
         </main>

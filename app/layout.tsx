@@ -6,8 +6,8 @@ import WhatsAppButton from "@/components/whatsapp-button";
 
 
 export const metadata: Metadata = {
-    title: "Ryan Walker Portfolio - PrebuiltUI",
-    description: "Ryan Walker's portfolio built by PrebuiltUI. A free and open-source UI template for React.js, Next.js and Tailwind CSS.",
+    title: "Mostafa Web Developeur - Développeur Web Full-Stack",
+    description: "Portfolio de Mostafa Khaddare, développeur web full-stack spécialisé dans la création d'applications web performantes et de solutions e-commerce pour le marché marocain en utilisant React, Next.js et Node.js.",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="fr">
             <body className={inter.className}>
                 <LenisScroll />
                 {children}
