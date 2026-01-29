@@ -8,6 +8,9 @@ import WhatsAppButton from "@/components/whatsapp-button";
 export const metadata: Metadata = {
     title: "Mostafa Web Developeur - Développeur Web Full-Stack",
     description: "Portfolio de Mostafa Khaddare, développeur web full-stack spécialisé dans la création d'applications web performantes et de solutions e-commerce pour le marché marocain en utilisant React, Next.js et Node.js.",
+    verification: {
+    google: "DpMjB0T5x_tUthToHe_m7h5C2fNmQtRigagMM8oQYi4",
+  },
 };
 
 export default function RootLayout({
