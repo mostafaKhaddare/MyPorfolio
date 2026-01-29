@@ -43,9 +43,9 @@ export default function HeroSection() {
                 height={144}
             />
 
-            <h2 className="text-4xl text-center md:text-6xl font-semibold mt-6">
+            <h1 className="text-4xl text-center md:text-6xl font-semibold mt-6">
                 Mostafa Web Developer
-            </h2>
+            </h1>
             <p className="text-2xl md:text-3xl font-mono mt-6">
                 Développeur Web Full-Stack
             </p>
