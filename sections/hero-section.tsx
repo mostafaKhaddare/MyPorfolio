@@ -138,5 +138,26 @@ export default function HeroSection() {
                 </div>
             </section>
         </>
+
+        
+            <h1>Freelance Web Developer in Morocco – Mostafa Khaddare</h1>
+
+            <p className="text-2xl md:text-3xl font-mono mt-6">
+                Développeur Web Full-Stack
+            </p>
+            <div className="mt-6">
+                <Link href="#contact" className="bg-indigo-600 hover:bg-indigo-700 text-white px-7 py-2.5 rounded-lg">
+                    Contact
+                </Link>
+            </div>
+            <div className="space-x-6 mt-10">
+                <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="inline-flex hover:-translate-y-0.5 transition text-pink-600">
+                    <Instagram />
+                </Link>
+                <Link href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" className="inline-flex hover:-translate-y-0.5 transition text-green-500">
+                    <WhatsAppIcon />
+                </Link>
+            </div>
+        </main>
     );
 }
