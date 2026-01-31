@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from "react";
+import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa"; 
 import { Poppins } from "next/font/google";
 
@@ -10,8 +10,6 @@ import Link from "next/link";
 import Navbar from "../components/navbar";
 
 export default function HeroSection() {
-    const [mobileOpen, setMobileOpen] = useState(false);
-
     return (
         <>
             {/* NAVBAR (moved to component) */}
@@ -65,7 +63,7 @@ export default function HeroSection() {
                 {/* TITRE H1 pour le SEO */}
                {/* H1 : On met en avant ton expertise (SEO fort) */}
                 <h1 className="text-4xl text-center md:text-6xl font-extrabold tracking-tight mt-8 text-slate-900">
-					<span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">
+					<span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-pink-500">
 						Mostafa El Khaddar
 					</span>{" "}
 					<span className="text-slate-800 font-semibold block md:inline mt-2 md:mt-0">— Web Developer</span>

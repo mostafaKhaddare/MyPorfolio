@@ -1,6 +1,6 @@
 import Section from "@/components/section";
 import Image from "next/image";
-import { ExternalLink, GraduationCap, Award, BookOpen } from "lucide-react";
+import { ExternalLink, GraduationCap, Award } from "lucide-react";
 
 export default function EducationSection() {
     const educations = [

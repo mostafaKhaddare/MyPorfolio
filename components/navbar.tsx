@@ -19,7 +19,7 @@ export default function Navbar() {
                         <div className="w-8 h-8 flex items-center justify-center rounded-full bg-indigo-50 text-indigo-600 font-semibold mr-2 text-sm">
                             MK
                         </div>
-                        <span className="font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">
+                        <span className="font-extrabold bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-pink-500">
                             Mostafa El Khaddar
                         </span>
                     </Link>
