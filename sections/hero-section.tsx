@@ -66,7 +66,7 @@ export default function HeroSection() {
 					<span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-pink-500">
 						Mostafa El Khaddar
 					</span>{" "}
-					<span className="text-slate-800 font-semibold block md:inline mt-2 md:mt-0">— Web Developer</span>
+					<span className="text-slate-800 font-semibold block md:inline mt-2 md:mt-0">— french web developeur</span>
 				</h1>
 
                 {/* H2 : On rassure avec ton vrai nom et ta mission */}

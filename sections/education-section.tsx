@@ -6,12 +6,12 @@ export default function EducationSection() {
     const educations = [
         {
             type: "certification",
-            title: "Meta Front-End Developer Professional Certificate",
+            title: "Meta Front-End Developeur Professional Certificate",
             institution: "Coursera / Meta",
             period: "2022 - Présent",
             description: "Certification professionnelle complète couvrant React, principes UX/UI, et développement web moderne. Validée par Meta.",
             image: "/assets/meta-logo.png", // Idéalement, trouve le logo Meta ou Coursera
-            credentialLink: "https://www.coursera.org/professional-certificates/meta-front-end-developer", // Lien vers la preuve si tu l'as
+            credentialLink: "https://www.coursera.org/professional-certificates/meta-front-end-developeur", // Lien vers la preuve si tu l'as
             tags: ["React", "UX/UI", "Testing"]
         },
         

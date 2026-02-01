@@ -10,11 +10,11 @@ export const metadata = {
   // Le titre doit être accrocheur. "Full Stack" fait plus pro que juste "Web".
   // Ajouter "Casablanca" aide pour le référencement local.
   // Titre parfait pour Google : Combine ton domaine et ta localisation
-  title: "Mostafa Web Developer | Création de Sites Internet & E-commerce au Maroc",
+  title: "Mostafa french web developeur | Création de Sites Internet & E-commerce au Maroc",
   
   // Description qui contient les variantes
   description:
-    "Portfolio de Mostafa El Khaddar (MostafaWebDeveloper). Expert en création de sites web sur mesure, React, Next.js et boutiques e-commerce à Casablanca.",
+    "Portfolio de Mostafa El Khaddar (MostafaWebDevelopereur). Expert en création de sites web sur mesure, React, Next.js et boutiques e-commerce à Casablanca.",
   
   icons: {
     icon: "/favicon.ico",
@@ -39,7 +39,7 @@ export const metadata = {
     title: "Mostafa Khaddare – Expert Développement Web & E-commerce",
     description:
       "Besoin d'un site web rapide et moderne ? Je développe des solutions digitales sur mesure pour les entreprises marocaines.",
-    url: "https://mostafawebdeveloper.vercel.app",
+    url: "https://mostafawebdevelopereur.vercel.app",
     siteName: "Mostafa Khaddare Portfolio",
     locale: "fr_MA", // Ciblage spécifique Maroc
     type: "website",

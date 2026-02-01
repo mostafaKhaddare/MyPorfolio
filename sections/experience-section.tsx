@@ -17,7 +17,7 @@ export default function ExperienceSection() {
         },
         {
             image: "/assets/microsoft.svg",
-            title: "Full Stack developer",
+            title: "Full Stack developeur",
             company: "Microsoft",
             location: "London",
             start: "May 2021",
