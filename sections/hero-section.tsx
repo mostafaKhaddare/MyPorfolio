@@ -16,7 +16,7 @@ export default function HeroSection() {
             <Navbar />
 
             {/* HERO (existing) */}
-            <section className={`${fontPrimary.className} relative flex flex-col items-center pt-32 pb-16 max-md:px-4 overflow-hidden`}>
+            <section className={`${fontPrimary.className} relative flex flex-col items-center pt-16 md:pt-20 pb-16 max-md:px-4 overflow-hidden`}>
                 {/* J'ai gardé ton SVG d'arrière-plan, c'est un bon style technique */}
                 <svg className="absolute -z-10 -mt-20 right-0 opacity-60" width="890" height="764" viewBox="0 0 890 764" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path stroke="#e2e8f0" d="M.5.5h63.825v63.825H.5zm0 380.85h63.825v63.825H.5zM444.824.5h63.825v63.825h-63.825zm0 380.85h63.825v63.825h-63.825zM.5 190.924h63.825v63.825H.5zm0 380.849h63.825v63.825H.5zm444.324-380.849h63.825v63.825h-63.825zm0 380.849h63.825v63.825h-63.825z" />
@@ -62,36 +62,41 @@ export default function HeroSection() {
 
                 {/* TITRE H1 pour le SEO */}
                {/* H1 : On met en avant ton expertise (SEO fort) */}
-                <h1 className="text-4xl text-center md:text-6xl font-extrabold tracking-tight mt-8 text-slate-900">
-					<span className="bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-pink-500">
-						Mostafa El Khaddar
-					</span>{" "}
-					<span className="text-slate-800 font-semibold block md:inline mt-2 md:mt-0">— french web developeur</span>
-				</h1>
+                <div className="space-y-4">
+                    <h1 className="text-4xl text-center md:text-7xl font-extrabold tracking-tight mt-12 text-slate-900 leading-tight">
+                        <span className=" uppercase bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-pink-500">
+                            Mostafa El Khaddar
+                        </span>{" "} <br />
+                      
+                        <span className="text-slate-800 font-semibold block md:inline mt-4 md:mt-0"> web développeur</span>
+                    </h1>
 
-                {/* H2 : On rassure avec ton vrai nom et ta mission */}
-                <p className="text-xl md:text-2xl text-center font-medium text-slate-600 mt-4 max-w-2xl">
-                    Salut, je suis <span className="font-semibold text-slate-800">Mostafa El Khaddar</span>.
-                    <br className="hidden md:block"/>
-                    Je transforme vos idées en sites web performants.
-                </p>
-                
-                <p className="text-center text-slate-500 mt-4 max-w-lg mx-auto">
-                    Je transforme vos idées en solutions digitales performantes (Next.js, React, Node.js).
-                </p>
+                    {/* H2 : On rassure avec ton vrai nom et ta mission */}
+                    <div className="space-y-6">
+                        <p className="text-xl md:text-2xl text-center font-medium text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                            Salut, je suis <span className="font-semibold text-slate-800">Mostafa El Khaddar</span>.
+                            <br className="hidden md:block"/>
+                            Je transforme vos idées en sites web performants.
+                        </p>
+                        
+                        <p className="text-base md:text-lg text-center text-slate-500 max-w-2xl mx-auto leading-relaxed">
+                            Je transforme vos idées en solutions digitales performantes (Next.js, React, Node.js).
+                        </p>
+                    </div>
+                </div>
 
                 {/* Call To Action (CTA) */}
-                <div className="flex flex-col sm:flex-row gap-4 mt-8">
-                    <Link href="#contact" className="bg-indigo-600 hover:bg-indigo-700 transition text-white px-8 py-3 rounded-full font-medium shadow-lg hover:shadow-indigo-500/30">
+                <div className="flex  sm:flex-row gap-4 mt-8">
+                    <Link href="#contact" className=" w-fit bg-indigo-600 hover:bg-indigo-700 transition text-white px-4 py-3 md:px-8 md:py-3 rounded-full font-medium shadow-lg hover:shadow-indigo-500/30">
                         Discuter de votre projet
                     </Link>
-                    <Link href="#projects" className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-3 rounded-full font-medium transition hover:shadow-md">
+                    <Link href="#projects" className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-4 py-3 md:px-8 md:py-3 rounded-full font-medium transition hover:shadow-md">
                         Voir mes travaux
                     </Link>
                 </div>
 
                 {/* Réseaux Sociaux */}
-                <div className="flex items-center space-x-6 mt-12 opacity-80 hover:opacity-100 transition-opacity">
+                <div className="flex items-center space-x-6  mt-6 md:mt-12 opacity-80 hover:opacity-100 transition-opacity">
                     <Link 
                         href="https://linkedin.com/in/ton-profil" 
                         target="_blank" 

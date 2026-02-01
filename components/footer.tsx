@@ -57,9 +57,9 @@ export default function Footer() {
                         © {new Date().getFullYear()}{" "}
                         <Link 
                             href="/" 
-                            className="font-medium text-gray-900 hover:text-indigo-600 transition-colors"
+                            className="  font-medium text-gray-900 hover:text-indigo-600 transition-colors"
                         >
-                            Mostafa Khaddare
+                            Mostafa El Khaddare
                         </Link>
                         . Tous droits réservés.
                     </p>
