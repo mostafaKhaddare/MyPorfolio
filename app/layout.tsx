@@ -10,7 +10,7 @@ export const metadata = {
   // Le titre doit être accrocheur. "Full Stack" fait plus pro que juste "Web".
   // Ajouter "Casablanca" aide pour le référencement local.
   // Titre parfait pour Google : Combine ton domaine et ta localisation
-  title: "Mostafa french web developeur | Création de Sites Internet & E-commerce au Maroc",
+  title: "Mostafa french web développeur  | Création de Sites Internet & E-commerce au Maroc",
   
   // Description qui contient les variantes
   description:
