@@ -4,7 +4,7 @@ import { inter } from "./fonts";
 import "./globals.css";
 import LenisScroll from "@/components/lenis";
 import WhatsAppButton from "@/components/whatsapp-button";
-
+import Script from "next/script";
 
 export const metadata = {
   // Le titre doit être accrocheur. "Full Stack" fait plus pro que juste "Web".
@@ -80,6 +80,23 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="fr">
+          <head>
+ {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17923647891"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads-gtag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17923647891');
+          `}
+        </Script>
+          </head>
             <body className={inter.className}>
                 <LenisScroll />
                 {children}
